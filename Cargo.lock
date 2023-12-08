@@ -911,6 +911,23 @@ dependencies = [
 ]
 
 [[package]]
+name = "rs-kafka-consume-produce-exp"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "config",
+ "env_logger",
+ "futures",
+ "headers",
+ "log",
+ "matches",
+ "rdkafka",
+ "regex",
+ "time",
+ "tokio",
+]
+
+[[package]]
 name = "rust-ini"
 version = "0.18.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1141,23 +1158,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn 2.0.39",
-]
-
-[[package]]
-name = "tokiox"
-version = "0.1.0"
-dependencies = [
- "clap",
- "config",
- "env_logger",
- "futures",
- "headers",
- "log",
- "matches",
- "rdkafka",
- "regex",
- "time",
- "tokio",
 ]
 
 [[package]]
