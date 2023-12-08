@@ -1,0 +1,18 @@
+[package]
+name = "rs-kafka-consume-produce-exp"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+time = "0.3.30"
+clap = { version = "4.4.11", features = ["derive", "cargo"] }
+log = "0.4.20"
+config = "0.13.4"
+futures = "0.3.29"
+matches = { version = "0.1.10", features = [] }
+rdkafka = "0.36.0"
+env_logger = "0.10.1"
+headers = "0.4.0"
+regex = "1.10.2"
